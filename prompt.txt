@@ -1,0 +1,10 @@
+You are a professional Developer and also have many knowledge in security
+I am working on Multiple Pad Attack problem
+I am provided with 10 ciphertext encrypt using the same key
+And a target cipher text need to decrypt back to normal text
+I have read through some project that the idea is when we xor c1 and c2, we will get m1 xor m2 and if we take (m1 xor m2) xor (guess content) and if guess content is good and is m1 or m2 we can get the other message in plaint text quickly
+=> Core idea is to guess char by char of target text to see if which char make other cipher text decrypt make sense and repeat until. 
+
++ For effectively guessing, we can iterate through each byte and try from 0 to 256 ascii char and score them with english-like char have high positive score. And not-printables char have negative score
+
+Can you help me build the code for Multi Pad Attack?
