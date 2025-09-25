@@ -37,7 +37,7 @@ For example, cipher 2 secuet should be secret => Enter `2,7,r`. When you finish,
     *   For each guess, we will decrypt the corresponding byte in *all* ciphertexts and scores the resulting column of characters using `score_text`.
     *   The key byte that produces the highest overall score (the most "English-like" column) is chosen as the correct key byte for that position.
 
-### How I Build This Attack
+### III, How I Build This Attack
 1. **Read documents about Multi Pad Attack and prepare the core ideas**
     * `guess` is the core concept in this attack as when we xor c0 and ct we got m0 xor m1. If we can guess m0 or m1 we can xor and get the other message in plain text
     * However, it requires us to gues character by character which is very slow. I research for a automated approach that speed up the process and make the `guess` process become easier.
