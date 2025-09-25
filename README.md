@@ -37,6 +37,8 @@
 
 ### III. How I Build This Attack
 
+- **Tools**: Google AI Studio
 - **Concept**: XOR of two ciphertexts reveals XOR of plaintexts. If you can guess part of one, the other is exposed.
 - **Automation**: Instead of manual guessing, i try to guess all characters for each position with code and scores them.
-- **Improvement**: UsingiInteractive mode to fix any wrong characters to ensure a perfect key and accurate decryption.
+- **Improvement**: Adding interactive mode to fix any wrong characters to ensure a perfect key and accurate decryption.
+

@@ -2,8 +2,6 @@ import os
 import argparse
 import sys
 
-# Code build with support from Google AI Studio after research and prepare prompt for AI to process
-
 # --- Configuration ---
 SCORING_TABLE = {
     b' ': 10, b'e': 9, b't': 8, b'a': 7, b'o': 7, b'i': 7, b'n': 7,
