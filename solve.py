@@ -2,7 +2,7 @@ import os
 import argparse
 import sys
 
-# Code build with support from AI after research and prepare prompt for AI to process
+# Code build with support from Google AI Studio after research and prepare prompt for AI to process
 
 # --- Configuration ---
 SCORING_TABLE = {
